@@ -1,3 +1,5 @@
 def greeting(name)
-  puts "Hello #{name}. It's nice to meet you.".squish
+  string = "Hello #{name}. It's nice to meet you."
+  
+  return string.chomp
 end
